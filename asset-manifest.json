@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/CRUD-Repo/static/css/main.98be65cd.css",
+    "main.js": "/CRUD-Repo/static/js/main.d23251b4.js",
+    "static/js/453.cd016445.chunk.js": "/CRUD-Repo/static/js/453.cd016445.chunk.js",
+    "static/media/delete.jpg": "/CRUD-Repo/static/media/delete.c80202179be0d3d05e4d.jpg",
+    "static/media/home.jpg": "/CRUD-Repo/static/media/home.d2f83d8455781de4d80f.jpg",
+    "static/media/create.jpg": "/CRUD-Repo/static/media/create.4f7ef2c0608f382a0f93.jpg",
+    "static/media/update.jpg": "/CRUD-Repo/static/media/update.fe35529e1935a758b5b2.jpg",
+    "static/media/role.png": "/CRUD-Repo/static/media/role.ac5cc1edae28e3741537.png",
+    "static/media/remove.png": "/CRUD-Repo/static/media/remove.c4f2a3c11acbdbf8a084.png",
+    "static/media/employee.png": "/CRUD-Repo/static/media/employee.12c9b24bd6edf85ceab1.png",
+    "static/media/women.png": "/CRUD-Repo/static/media/women.3f889d0af5f26871fbcc.png",
+    "static/media/create.png": "/CRUD-Repo/static/media/create.62411e8f75d1a05f8d65.png",
+    "static/media/men.png": "/CRUD-Repo/static/media/men.1dfc25a7e4f75f956da5.png",
+    "static/media/outcome.png": "/CRUD-Repo/static/media/outcome.125f4665267f0b1f17ca.png",
+    "static/media/success.png": "/CRUD-Repo/static/media/success.ed728c62eca00fee7f3a.png",
+    "index.html": "/CRUD-Repo/index.html",
+    "main.98be65cd.css.map": "/CRUD-Repo/static/css/main.98be65cd.css.map",
+    "main.d23251b4.js.map": "/CRUD-Repo/static/js/main.d23251b4.js.map",
+    "453.cd016445.chunk.js.map": "/CRUD-Repo/static/js/453.cd016445.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98be65cd.css",
+    "static/js/main.d23251b4.js"
+  ]
+}
