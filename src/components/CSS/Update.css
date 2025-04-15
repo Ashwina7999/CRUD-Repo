@@ -1,0 +1,6 @@
+.update-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../../Assets/Background/update.jpg');
+  }

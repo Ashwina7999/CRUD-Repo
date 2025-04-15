@@ -1,0 +1,11 @@
+.delete-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url('../../Assets/Background/delete.jpg');
+}
+
+.delete-heading {
+    width: 75%;
+    margin-left: 15%;
+}
