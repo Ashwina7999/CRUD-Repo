@@ -1,3 +1,46 @@
+# CRUD-Repository
+
+Developed a project using React and other front-end technologies designed to be responsive, suitable for both desktop and mobile views.
+
+Built a Spring Boot application that acts as a backend integrated with an Oracle SQL database to implement CRUD operations (Create, Read, Update, Delete) for data management.
+
+Click Here [Project Link](https://ashwina7999.github.io/Climate-App/) to view the project
+
+Note:
+- This repository contains only the front-end code. To access the back-end code repository, visit (https://github.com/Ashwina7999/CRUD-Repo-Spring/)
+- Since the Spring Boot project and database are not live/hosted, the data on the React page has been hardcoded for reference.
+
+---
+
+### Home Page
+![localhost_3000_](https://github.com/user-attachments/assets/fbbbd85d-2286-48d3-a258-a4934d70ca83)
+
+
+---
+#### Create Page
+![localhost_3000_create](https://github.com/user-attachments/assets/cbce1458-4f76-4d30-9f31-3a2695e21b45)
+
+
+---
+#### View Page
+![localhost_3000_view](https://github.com/user-attachments/assets/9110214d-733f-45cd-a5cd-2236a7f73255)
+
+
+---
+#### Update Page
+![localhost_3000_view (2)](https://github.com/user-attachments/assets/23c8ac9a-b97c-4fff-a447-be72ab4bb38a)
+
+
+---
+#### Delete Page
+![localhost_3000_view (3)](https://github.com/user-attachments/assets/a54253ae-1e30-45ae-b2f8-ed1817a3c638)
+
+
+---
+#### Oracle SQL DB Page
+![DB](https://github.com/user-attachments/assets/4bc32796-00a7-4d26-814d-817b359dbe39)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
