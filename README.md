@@ -7,8 +7,9 @@ Built a Spring Boot application that acts as a backend integrated with an Oracle
 Click Here [Project Link](https://ashwina7999.github.io/Climate-App/) to view the project
 
 Note:
-- This repository contains only the front-end code. To access the back-end code repository, visit (https://github.com/Ashwina7999/CRUD-Repo-Spring/)
-- Since the Spring Boot project and database are not live/hosted, the data on the React page has been hardcoded for reference.
+- This repository contains only the front-end code. To access the back-end code repository,
+  visit (https://github.com/Ashwina7999/CRUD-Repo-Spring/)
+- Since the Spring Boot project and database are not live/hosted, the data on the Hosted React page has been hardcoded for reference.
 
 ---
 
