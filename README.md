@@ -4,7 +4,7 @@ Developed a project using React and other front-end technologies designed to be 
 
 Built a Spring Boot application that acts as a backend integrated with an Oracle SQL database to implement CRUD operations (Create, Read, Update, Delete) for data management.
 
-Click Here [Project Link](https://ashwina7999.github.io/Climate-App/) to view the project
+Click Here [Project Link](https://ashwina7999.github.io/CRUD-Repo/) to view the project
 
 Note:
 - This repository contains only the front-end code. To access the back-end code repository,
