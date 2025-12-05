@@ -12,6 +12,7 @@ function App() {
         <NavBar />
         <Routes>
           <Route path={'/'} element={<HomeController page="home" />} />
+          <Route path={'/CRUD-Repo'} element={<HomeController page="home" />} />
           <Route path='/create' element={<HomeController page="create" />} />
           <Route path='/view' element={<HomeController page="view" />} />
           <Route path='/update' element={<HomeController page="update" />} />

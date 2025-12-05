@@ -22,9 +22,6 @@ const backgroundStyle = {
   minHeight: '100vh'
 };
 
-//In case API Call fails or Backend not connected, showing default hardcoded response Json
-const defaultHomeResponse = [{ "image": "employee", "name": "Total", "value": "00" }, { "image": "men", "name": "Men", "value": "00" }, { "image": "women", "name": "Women", "value": "00" }, { "image": "role", "name": "Developer", "value": "00" }, { "image": "success", "name": "Tester", "value": "00" }, { "image": "outcome", "name": "Outcome", "value": "00" }];
-
 function Home({ page }) {
 
   const [homeResponse, setHomeResponse] = useState([]);
@@ -35,8 +32,6 @@ function Home({ page }) {
 
       if (response && response.cardList) {
         setHomeResponse(response.cardList);
-      } else {
-        setHomeResponse(defaultHomeResponse);
       }
     };
 
