@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import { BrowserRouter, Route, Routes } from 'react-router';
 import './App.css';
+import NavBar from './components/navBar/NavBar';
+import HomeController from './components/HomeController';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ToastContainer />
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route path={'/'} element={<HomeController page="home" />} />
+          <Route path='/create' element={<HomeController page="create" />} />
+          <Route path='/view' element={<HomeController page="view" />} />
+          <Route path='/update' element={<HomeController page="update" />} />
+          <Route path='/delete' element={<HomeController page="delete" />} />
+          <Route path='/logout' element={<HomeController page="logout" />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
