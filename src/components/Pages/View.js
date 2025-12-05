@@ -24,6 +24,9 @@ const Card = ({ card }) => {
     );
 };
 
+//In case API Call fails or Backend not connected, showing default hardcoded response Json
+const defaultCards = [{"userId":"U2100613172","name":"Jenifer","email":"jenifer@gmail.com","password":"Jenifer@123","role":"User","gender":"Female","phone":"9754321856","city":"Paris","country":"France"},{"userId":"U1825450543","name":"Bella","email":"Bella@gmail.com","password":"Bella@123","role":"User","gender":"Female","phone":"8745936172","city":"Italy","country":"Europe"},{"userId":"U2100613174","name":"Jacob","email":"jacob@gmail.com","password":"Jacob@123","role":"User","gender":"Male","phone":"8578394810","city":"Rome","country":"Italy"},{"userId":"U2100613175","name":"Olivia","email":"olivia@gmail.com","password":"Olivia@123","role":"User","gender":"Female","phone":"7754321856","city":"Serbia","country":"Balkans"},{"userId":"U1825450546","name":"Luna","email":"luna@gmail.com","password":"Luna@123","role":"User","gender":"Female","phone":"9745936172","city":"New York","country":"US"},{"userId":"U1825450549","name":"Sophia","email":"sophia@gmail.com","password":"Sophia@123","role":"User","gender":"Female","phone":"8539281580","city":"Madrid","country":"Spain"}];
+
 function View() {
 
     const [cards, setCards] = useState([]);
@@ -34,6 +37,8 @@ function View() {
 
             if (response && response.users) {
                 setCards(response.users);
+            } else {
+                setCards(defaultCards);
             }
         };
 
