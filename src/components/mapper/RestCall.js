@@ -36,6 +36,7 @@ const RestCall = async (data = null, method = "GET", endPoint = "") => {
 
   } catch (error) {
     console.log("RestCall Error:", error);
+    notify("Failure", error.message);
     return { error: error.message };
   }
 };
