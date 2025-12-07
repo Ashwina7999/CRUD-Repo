@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CRUD-Repo/static/css/main.5a40c8c6.css",
-    "main.js": "/CRUD-Repo/static/js/main.aa29bf24.js",
+    "main.js": "/CRUD-Repo/static/js/main.19e95540.js",
     "static/js/453.d7446e4a.chunk.js": "/CRUD-Repo/static/js/453.d7446e4a.chunk.js",
     "static/media/delete.jpeg": "/CRUD-Repo/static/media/delete.3f7ca20eeb88b67cf8de.jpeg",
     "static/media/update.jpg": "/CRUD-Repo/static/media/update.c80202179be0d3d05e4d.jpg",
@@ -18,11 +18,11 @@
     "static/media/success.png": "/CRUD-Repo/static/media/success.ed728c62eca00fee7f3a.png",
     "index.html": "/CRUD-Repo/index.html",
     "main.5a40c8c6.css.map": "/CRUD-Repo/static/css/main.5a40c8c6.css.map",
-    "main.aa29bf24.js.map": "/CRUD-Repo/static/js/main.aa29bf24.js.map",
+    "main.19e95540.js.map": "/CRUD-Repo/static/js/main.19e95540.js.map",
     "453.d7446e4a.chunk.js.map": "/CRUD-Repo/static/js/453.d7446e4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a40c8c6.css",
-    "static/js/main.aa29bf24.js"
+    "static/js/main.19e95540.js"
   ]
 }
